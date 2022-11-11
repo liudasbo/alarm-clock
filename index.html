@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card__header">
+            <div class="card__figure">
+                <img class="card__image" src="resources/images/logo alarm-clock.png" alt="Alarm logo.">
+            </div>
+        </div>
+        <div class="card__body">
+            <div class="card__title">
+                <h1 class="current__time"></h1>
+            </div>
+        </div>
+        <div class="card__footer">
+            <div class="card__select">
+                <select name="hours" id="hours-select">
+                    <option value="Please select hour">Please select hour</option>
+                </select>
+                <p>:</p>
+                <select name="minutes" id="minutes-select">
+                    <option value="Please select minute">Please select minute</option>
+                </select>
+            </div>
+            <div class="card__status">
+            </div>
+            <div class="card__actions">
+                <button class="buttons-active" id="setButton">SET ALARM</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
